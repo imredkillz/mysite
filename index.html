@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio personale">
+  <title>Nome Cognome — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#top" aria-label="Torna all'inizio">NC<span>.</span></a>
+    <nav class="nav" aria-label="Navigazione principale">
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span>
+        <span class="sr-only">Apri menu</span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">Chi sono</a>
+        <a href="#projects">Progetti</a>
+        <a href="#experience">Esperienza</a>
+        <a href="#contact">Contatti</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">Portfolio personale</p>
+      <h1>Nome Cognome</h1>
+      <p class="hero-role">Sviluppatore creativo</p>
+      <p class="hero-description">Una breve presentazione personale da personalizzare con il tuo profilo, le tue competenze e ciò che ti appassiona.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#projects">Vedi i progetti</a>
+        <a class="button button-secondary" href="#contact">Contattami</a>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <p class="section-label">01 — Chi sono</p>
+      <div class="section-grid">
+        <h2>Creo esperienze digitali semplici, utili e curate nei dettagli.</h2>
+        <div class="copy">
+          <p>Qui puoi scrivere una breve presentazione professionale. Racconta chi sei, cosa fai e quale valore porti ai progetti.</p>
+          <p>Questo testo è solo un segnaposto: sostituiscilo con la tua storia, i tuoi interessi e i tuoi obiettivi.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <p class="section-label">02 — Progetti selezionati</p>
+      <div class="project-list">
+        <article class="project-card">
+          <div class="project-number">01</div>
+          <div>
+            <p class="project-type">Tipologia / Categoria</p>
+            <h3>Nome progetto</h3>
+            <p>Descrizione breve del progetto, dei problemi affrontati e del risultato ottenuto.</p>
+          </div>
+          <a href="#" aria-label="Apri Nome progetto">↗</a>
+        </article>
+        <article class="project-card">
+          <div class="project-number">02</div>
+          <div>
+            <p class="project-type">Tipologia / Categoria</p>
+            <h3>Nome progetto</h3>
+            <p>Descrizione breve del progetto, delle tecnologie utilizzate e dell’obiettivo raggiunto.</p>
+          </div>
+          <a href="#" aria-label="Apri Nome progetto">↗</a>
+        </article>
+        <article class="project-card">
+          <div class="project-number">03</div>
+          <div>
+            <p class="project-type">Tipologia / Categoria</p>
+            <h3>Nome progetto</h3>
+            <p>Descrizione breve del progetto, della tua responsabilità e del risultato finale.</p>
+          </div>
+          <a href="#" aria-label="Apri Nome progetto">↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <p class="section-label">03 — Esperienza</p>
+      <div class="experience-list">
+        <article>
+          <p>2024 — Presente</p>
+          <h3>Ruolo professionale</h3>
+          <p>Azienda o progetto</p>
+        </article>
+        <article>
+          <p>2022 — 2024</p>
+          <h3>Ruolo professionale</h3>
+          <p>Azienda o progetto</p>
+        </article>
+        <article>
+          <p>2020 — 2022</p>
+          <h3>Ruolo professionale</h3>
+          <p>Azienda o progetto</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <p class="section-label">04 — Contatti</p>
+      <h2>Hai un progetto in mente?<br><a href="mailto:hello@example.com">Parliamone.</a></h2>
+      <div class="social-links">
+        <a href="#">GitHub ↗</a>
+        <a href="#">LinkedIn ↗</a>
+        <a href="mailto:hello@example.com">Email ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Nome Cognome</p>
+    <a href="#top">Torna su ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
