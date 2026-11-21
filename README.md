@@ -20,11 +20,11 @@ Community Discord con oltre **3.000 membri**, supportata da un bot personalizzat
 
 Il bot aiuta nella:
 
-- gestione del server Discord;
-- organizzazione della community;
-- intrattenimento dei membri.
+- Gestione del server Discord;
+- Organizzazione della community;
+- Intrattenimento dei membri.
 
-**Ruolo:** sviluppo completo del bot  
+**Ruolo:** Sviluppo completo del bot  
 **Tecnologie:** TypeScript e JavaScript
 
 ## 🛠️ Competenze
