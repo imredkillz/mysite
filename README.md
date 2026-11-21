@@ -14,7 +14,7 @@ Mi piace creare strumenti utili, sviluppare bot personalizzati e progettare solu
 
 ## 🚀 Progetto in evidenza
 
-### HeartlessItalia
+### [HeartlessItalia](https://discord.gg/invite/HeartlessItalia)
 
 Community Discord con oltre **3.000 membri**, supportata da un bot personalizzato sviluppato interamente da me in **TypeScript e JavaScript**.
 
@@ -43,8 +43,8 @@ Il bot aiuta nella:
 ## 📬 Contatti
 
 - GitHub: [imredkillz](https://github.com/imredkillz)
-- Email: _a83361141@gmail.com_
-- Discord: _@accanito_
+- Email: __a83361141@gmail.com__
+- Discord: __[@accanito](https://discord.com)__
 
 ## Licenza
 
