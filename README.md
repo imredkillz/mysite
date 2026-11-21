@@ -14,7 +14,7 @@ Mi piace creare strumenti utili, sviluppare bot personalizzati e progettare solu
 
 ## 🚀 Progetto in evidenza
 
-### [HeartlessItalia](https://discord.gg/invite/HeartlessItalia)
+### [HeartlessItalia](https://discord.gg/heartlessitalia)
 
 Community Discord con oltre **3.000 membri**, supportata da un bot personalizzato sviluppato interamente da me in **TypeScript e JavaScript**.
 
